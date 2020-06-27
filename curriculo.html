@@ -1,0 +1,65 @@
+<! DOCTYPE html>
+<html lang = 'pt-BR'>
+
+	<head>
+		<meta charset = 'utf-8'>
+		<title> Currículo </title>
+		<link rel = "stylesheet" type="text/css" href="curriculo.css" media="all">
+		<script src = "curriculo.js"></script>
+
+	</head>
+
+	<body >
+
+		<h2 id="titulo">
+			<script>
+				document.write("Bem-Vindo(a) ao meu currículo" + " " + nome);
+
+			</script>
+		</h2>
+		<div id="avatar">
+			<img src="avatar.png" width="250px" >
+			<p id="contato">
+			<a href="mailto:tbrviana@hotmail.com"><img src="email.png" width="20px">
+			tbrviana@hotmail.com </a>
+			<a href="https://wa.me/5541995124467"><img src="contato1.png" width="30px">
+			(41)99512-4467 </a></p>
+			<img src="QR_code.jpg" width="250px">
+		</div>
+		<div id="documento">
+			<p id="download"> <a href="curriculo.pdf" download ="curriculo.pdf">Clique aqui </a> para  fazer o download do curriculo.</p>
+
+		</div>
+		<div id="apresentacao">
+			<h3> Meu nome é Tatiane Bragel Viana, </h3>
+			<p> Clique nos tópicos abaixo para saber mais: </p>
+
+			<nav>
+				<ul class="menu">
+					<li><a href="#">Profissional</a>
+						<ul>
+							<li><a href="#" id="submenu" onclick="formacao()">Formação</a></li>
+							<li><a href="#" id="submenu" onclick="idiomas()">Idiomas</a></li>
+							<li><a href="#" id="submenu" onclick="cursos()">Cursos</a></li>
+							<li><a href="#" id="submenu" onclick="outros()">Outros</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Pessoal</a>
+						<ul>
+							<li><a href="#">Quem sou</a></li>
+							<li><a href="#">Porque TI</a></li>
+							<li><a href="#">ETC.</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+			<p id="profissional"><input id="fechar" type="submit" value="x" onclick="fechar()"> </p>
+
+		</div>
+		<footer id="rodape">
+			<p>Direitos reservados Tatiane Bragel Viana  </p>
+		</footer>
+
+	</body>
+
+</html>

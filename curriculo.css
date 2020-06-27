@@ -1,0 +1,137 @@
+body {
+	font-family:verdana, sans-serif;
+	background-color: #F0FFFF;
+	font-size:18px;
+	background:url(fundo1.jpg) no-repeat center;
+	color:#F0FFFF;
+}
+
+#titulo {
+	background-color:#20B2AA;
+	color:#F0FFFF;
+	border: 1px solid #20B2AA;
+	position:relative;
+	text-align:center;
+
+}
+
+#avatar {
+	background-color: #20B2AA;
+	border : 1px solid #20B2AA;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	width:20%;
+	position: relative;
+	left:20px;
+	display:block;
+	padding: 3px 5px;
+	top: 10px;
+}
+img {
+	position: relative;
+	left:10px;
+}
+a img {
+	margin-right:8px;
+}
+#contato {
+	text-align: center-right;
+	margin-left:10px;
+	background-color:#20B2AA;
+
+}
+#documento {
+	background-color: #20B2AA;
+	border : 1px solid #20B2AA;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	position: relative;
+	width:75%;
+	left: 320px;
+	top: -620px;
+}
+
+#apresentacao {
+	background-color: #20B2AA;
+	border : 1px solid #20B2AA;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	width:75%;
+	position: relative;
+	left: 320px;
+	top: -600px;
+
+}
+.menu{
+	list-style:none;
+	border:1px solid #20B2AA;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	float:left;
+	background-color:#20B2AA;
+	z-index:1;
+
+}
+.menu li{
+	border-right:1px solid #20B2AA;
+
+}
+.menu li a{
+	color:#F0FFFF;
+	text-decoration:none;
+	padding:5px 25px;
+	display:block;
+
+}
+
+.menu li a:hover{
+	background:#F0FFFF;
+	color:#20B2AA;
+	-moz-box-shadow:0 3px 10px 0 #F0FFFF;
+	-webkit-box-shadow:0 3px 10px 0 #F0FFFF;
+	text-shadow:0px 0px 5px #F0FFFF;
+
+}
+
+.menu li  ul{
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	position:absolute;
+	margin-left:20px;
+	margin-top:-32px;
+	background-color:#20B2AA;
+	display:none;
+}
+.menu li:hover ul, .menu li.over ul{
+	display:block;
+}
+
+.menu li ul li{
+	border:1px solid #20B2AA;
+	display:block;
+	width:150px;
+}
+#profissional {
+	border:2 px solid #20B2AA;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	background-color: #20B2AA;
+	width:75%;
+	position:relative;
+	float:left;
+	margin-top:-82px;
+	text-align:left-center;
+	margin-left:250px;
+	z-index:2;
+}
+#fechar{
+	color: black;
+	position: relative;
+	float: right;
+	margin-top: 0;
+}
+#rodape {
+	color:#20B2AA;
+	background-color: #F0FFFF;
+	text-align: center;
+}
