@@ -1,2 +1,0 @@
-# curriculo
-Meu curriculo online
